@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+body {
+	background-color: rgb(25, 0, 50);
+	color: white;
+	font-family: "Open Sans", sans-serif;
+	text-shadow: 1px 1px 1px black;
+}
+
+h1 {
+	letter-spacing: 5px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+a {
+	color: rgb(200, 150, 255);
+	text-decoration: none;
+}
+
+#intro {
+	text-align: center;
+}
