@@ -18,6 +18,31 @@ a {
 	text-decoration: none;
 }
 
+/* Navigation */
+nav {
+	display: flex;
+	height: 50px;
+}
+
+nav #avatar-container img {
+	border-radius: 50%;
+}
+
+nav #nav-spacer {
+	flex: 1;
+}
+
+nav ul {
+	margin: auto 0;
+}
+nav ul li {
+	display: inline-block;
+}
+nav ul li a {
+	padding: 10px 20px;
+}
+
+/* Main Page */
 #intro {
 	text-align: center;
 }
