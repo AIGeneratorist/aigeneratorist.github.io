@@ -50,6 +50,32 @@ nav ul li a:hover {
 	background-color: rgb(75, 0, 150);
 }
 
+/* Socials by Website */
+.social-github {
+	background-color: rgb(16, 0, 0);
+}
+.social-kaggle {
+	background-color: rgb(32, 190, 255);
+}
+.social-huggingface {
+	background-color: black;
+}
+.social-stackoverflow {
+	background-color: rgb(245, 128, 37);
+}
+.social-reddit {
+	background-color: rgb(255, 69, 0);
+}
+.social-bluesky {
+	background-color: rgb(2, 133, 255);
+}
+.social-mastodon {
+	background-color: rgb(99, 100, 255);
+}
+.social-linkedin {
+	background-color: rgb(10, 102, 194);
+}
+
 /* Main Page */
 #intro {
 	text-align: center;
@@ -63,7 +89,6 @@ nav ul li a:hover {
 	padding: 0;
 }
 .socials li {
-	background-color: rgba(255, 255, 255, 0.5);
 	border-radius: 10px;
 	display: inline-block;
 	margin: 10px;
