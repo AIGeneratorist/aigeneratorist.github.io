@@ -28,12 +28,180 @@ a:hover {
 	text-align: center;
 }
 .rounded-rect-list li {
-	background-color: rgba(128, 128, 128, 0.5);
-	border: 2px solid rgb(128, 128, 128);
 	border-radius: 10px;
 	display: inline-block;
 	margin: 10px;
 	padding: 10px;
+}
+
+/* Colors */
+.color-html {
+	background-color: rgba(227, 79, 38, 0.5);
+	border: 2px solid rgb(227, 79, 38);
+}
+.color-css {
+	background-color: rgba(21, 114, 182, 0.5);
+	border: 2px solid rgb(21, 114, 182);
+}
+.color-javascript {
+	background-color: rgba(247, 223, 30, 0.5);
+	border: 2px solid rgb(247, 223, 30);
+}
+.color-python {
+	background-color: rgba(55, 118, 171, 0.5);
+	border: 2px solid rgb(55, 118, 171);
+}
+.color-java {
+	background-color: rgba(0, 115, 150, 0.5);
+	border: 2px solid rgb(0, 115, 150);
+}
+.color-typescript {
+	background-color: rgba(49, 120, 198, 0.5);
+	border: 2px solid rgb(49, 120, 198);
+}
+.color-json {
+	background-color: rgba(0, 0, 0, 0.5);
+	border: 2px solid rgb(0, 0, 0);
+}
+.color-markdown {
+	background-color: rgba(0, 0, 0, 0.5);
+	border: 2px solid rgb(0, 0, 0);
+}
+.color-svg {
+	background-color: rgba(255, 177, 59, 0.5);
+	border: 2px solid rgb(255, 177, 59);
+}
+.color-github {
+	background-color: rgba(16, 0, 0, 0.5);
+	border: 2px solid rgb(16, 0, 0);
+}
+.color-vscode {
+	background-color: rgba(0, 120, 212, 0.5);
+	border: 2px solid rgb(0, 120, 212);
+}
+.color-git {
+	background-color: rgba(240, 80, 50, 0.5);
+	border: 2px solid rgb(240, 80, 50);
+}
+.color-npm {
+	background-color: rgba(203, 56, 55, 0.5);
+	border: 2px solid rgb(203, 56, 55);
+}
+.color-jupyter {
+	background-color: rgba(243, 118, 38, 0.5);
+	border: 2px solid rgb(243, 118, 38);
+}
+.color-chatgpt {
+	background-color: rgba(116, 170, 156, 0.5);
+	border: 2px solid rgb(116, 170, 156);
+}
+.color-firefox {
+	background-color: rgba(255, 113, 57, 0.5);
+	border: 2px solid rgb(255, 113, 57);
+}
+.color-github-pages {
+	background-color: rgba(34, 34, 34, 0.5);
+	border: 2px solid rgb(34, 34, 34);
+}
+.color-windsurf {
+	background-color: rgba(11, 16, 15, 0.5);
+	border: 2px solid rgb(11, 16, 15);
+}
+.color-obsidian {
+	background-color: rgba(124, 58, 237, 0.5);
+	border: 2px solid rgb(124, 58, 237);
+}
+.color-postgresql {
+	background-color: rgba(65, 105, 225, 0.5);
+	border: 2px solid rgb(65, 105, 225);
+}
+.color-google-colab {
+	background-color: rgba(249, 171, 0, 0.5);
+	border: 2px solid rgb(249, 171, 0);
+}
+.color-duckduckgo {
+	background-color: rgba(222, 88, 51, 0.5);
+	border: 2px solid rgb(222, 88, 51);
+}
+.color-google-gemini {
+	background-color: rgba(142, 117, 178, 0.5);
+	border: 2px solid rgb(142, 117, 178);
+}
+.color-sqlite {
+	background-color: rgba(0, 59, 87, 0.5);
+	border: 2px solid rgb(0, 59, 87);
+}
+.color-obs-studio {
+	background-color: rgba(48, 46, 49, 0.5);
+	border: 2px solid rgb(48, 46, 49);
+}
+.color-libreoffice {
+	background-color: rgba(24, 163, 3, 0.5);
+	border: 2px solid rgb(24, 163, 3);
+}
+.color-ollama {
+	background-color: rgba(0, 0, 0, 0.5);
+	border: 2px solid rgb(0, 0, 0);
+}
+.color-nodejs {
+	background-color: rgba(95, 160, 78, 0.5);
+	border: 2px solid rgb(95, 160, 78);
+}
+.color-tensorflow {
+	background-color: rgba(255, 111, 0, 0.5);
+	border: 2px solid rgb(255, 111, 0);
+}
+.color-pytorch {
+	background-color: rgba(238, 76, 44, 0.5);
+	border: 2px solid rgb(238, 76, 44);
+}
+.color-keras {
+	background-color: rgba(208, 0, 0, 0.5);
+	border: 2px solid rgb(208, 0, 0);
+}
+.color-anaconda {
+	background-color: rgba(68, 168, 51, 0.5);
+	border: 2px solid rgb(68, 168, 51);
+}
+.color-scikit-learn {
+	background-color: rgba(247, 147, 30, 0.5);
+	border: 2px solid rgb(247, 147, 30);
+}
+.color-numpy {
+	background-color: rgba(1, 50, 67, 0.5);
+	border: 2px solid rgb(1, 50, 67);
+}
+.color-pandas {
+	background-color: rgba(21, 4, 88, 0.5);
+	border: 2px solid rgb(21, 4, 88);
+}
+.color-matplotlib {
+	background-color: rgba(255, 255, 255, 0.5);
+	border: 2px solid rgb(255, 255, 255);
+}
+.color-express {
+	background-color: rgba(0, 0, 0, 0.5);
+	border: 2px solid rgb(0, 0, 0);
+}
+.color-react {
+	background-color: rgba(40, 44, 52, 0.5);
+	border: 2px solid rgb(40, 44, 52);
+}
+.color-nextjs {
+	background-color: rgba(0, 0, 0, 0.5);
+	border: 2px solid rgb(0, 0, 0);
+}
+.color-sequelize {
+	background-color: rgba(82, 176, 231, 0.5);
+	border: 2px solid rgb(82, 176, 231);
+}
+.color-puppeteer {
+	background-color: rgba(64, 181, 164, 0.5);
+	border: 2px solid rgb(64, 181, 164);
+}
+.color-p5js {
+	background-color: rgba(237, 34, 93, 0.5);
+	border: 2px solid rgb(237, 34, 93);
 }
 
 /* Navigation */
