@@ -35,6 +35,11 @@ a:hover {
 }
 
 /* Colors */
+.color-default {
+	background-color: rgba(128, 128, 128, 0.5);
+	border: 2px solid rgb(128, 128, 128);
+}
+
 .color-html {
 	background-color: rgba(227, 79, 38, 0.5);
 	border: 2px solid rgb(227, 79, 38);
